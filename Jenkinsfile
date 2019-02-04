@@ -1,6 +1,6 @@
 
-de('docker') {
- 
+node('docker') {
+    agent { label: 'ubuntu' }
     stage 'Checkout'
         checkout scm
     stage 'Build & UnitTest'
