@@ -1,5 +1,5 @@
-
-node('ubuntu') {
+pipeline  {
+    agent { label: 'ubuntu' }
     stages {
         stage('Build & UnitTest') {
             step {
@@ -15,3 +15,4 @@ node('ubuntu') {
         }
     }  
 }
+
