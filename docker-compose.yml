@@ -1,0 +1,6 @@
+version: "3"
+services:
+	accountownerapp:
+        	image: "accountownerapp:B${BUILD_NUMBER}"
+    		build:
+      			context: .
