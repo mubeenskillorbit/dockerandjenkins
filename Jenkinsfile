@@ -3,12 +3,12 @@ pipeline  {
     stages {
         stage('Build & UnitTest') {
             steps {
-                docker build -t accountownerapp .
+                sh "docker build -t accountownerapp ."
             }
         }
         stage('Integration Test') {
             steps {
-                docker run -t accountownerapp
+                sh "docker run -t accountownerapp"
             }
         }
     }  
