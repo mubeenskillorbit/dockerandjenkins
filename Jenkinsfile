@@ -3,12 +3,12 @@ pipeline  {
     stages {
         stage('Build & UnitTest') {
             steps {
-                docker build -t accountownerapp:B${BUILD_NUMBER} .
+                docker build -t "accountownerapp:B${BUILD_NUMBER}" .
             }
         }
         stage('Integration Test') {
             steps {
-                docker run -t accountownerapp:B${BUILD_NUMBER}
+                docker run -t "accountownerapp:B${BUILD_NUMBER}"
             }
         }
     }  
