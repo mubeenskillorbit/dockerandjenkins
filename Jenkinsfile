@@ -3,7 +3,7 @@ pipeline  {
     stages {
         stage('Build & UnitTest') {
             steps {
-                sh "docker build -t accountownerapp:B${BUILD_NUMBER} -f Dockerfile ."
+                sh "docker build -t accountownerapp:B${BUILD_NUMBER} ."
             }
         }
         stage('Integration Test') {
