@@ -9,8 +9,7 @@ pipeline  {
         }
         stage('Integration Test') {
             steps {
-                sh "docker-compose up --force-recreate --abort-on-container-exit"
-                sh "docker-compose down -v"
+                sh "docker run -t accountownerapp:B${BUILD_NUMBER}"
             }
         }
     }  
