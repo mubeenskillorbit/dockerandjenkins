@@ -1,0 +1,11 @@
+D:\GitHub-Clone\dockerandjenkins\bin\Debug\netcoreapp2.2\firstdocker.deps.json
+D:\GitHub-Clone\dockerandjenkins\bin\Debug\netcoreapp2.2\firstdocker.runtimeconfig.json
+D:\GitHub-Clone\dockerandjenkins\bin\Debug\netcoreapp2.2\firstdocker.runtimeconfig.dev.json
+D:\GitHub-Clone\dockerandjenkins\bin\Debug\netcoreapp2.2\firstdocker.dll
+D:\GitHub-Clone\dockerandjenkins\bin\Debug\netcoreapp2.2\firstdocker.pdb
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.csprojResolveAssemblyReference.cache
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.csproj.CoreCompileInputs.cache
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.AssemblyInfoInputs.cache
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.AssemblyInfo.cs
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.dll
+D:\GitHub-Clone\dockerandjenkins\obj\Debug\netcoreapp2.2\firstdocker.pdb
